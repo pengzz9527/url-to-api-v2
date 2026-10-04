@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "app/api/create/route.ts": { "memory": 1024, "maxDuration": 30 },
+    "app/api/cron/route.ts": { "memory": 2048, "maxDuration": 60 }
+  },
+  "crons": [{ "path": "/api/cron", "schedule": "*/30 * * * *" }]
+}
